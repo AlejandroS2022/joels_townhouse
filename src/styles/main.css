@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Raleway" !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #21c2c4 0%, #2138ba 100%);
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+.background-principal {
+  background: url(../assets/portada.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.capa {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.custom-paddings {
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
+}
+
+@media (max-width: 1024px) {
+  .custom-paddings {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-paddings {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+}
+
+.sobre {
+  background: url(../assets/musica-fondo.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.galeria {
+  background: url(../assets/musica-fondo-negro.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
