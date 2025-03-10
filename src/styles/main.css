@@ -53,7 +53,7 @@ body {
 }
 
 .galeria {
-  background: url(../assets/musica-fondo-negro.png) no-repeat center;
+  background: url(../assets/musica-fondo-alt.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
